@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Eleni Nisioti
+subtitle: My academic and personal website
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: https://eleninisioti@github.io "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -14,92 +14,103 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_avatar: eleninisioti.png
+author: Eleni Nisioti
+author_bio: Hi, my name is Eleni Nisioti and this is my academic and somewhat personal website. I am a researcher in Artificial Intelligence, working
+  primarily on multi-afgent reinforcement learning, evolutionary optimization and complex systems.
+author_email: "elennisioti@gmail,com"
+author_location: France
+#author_website_url: ""
+typewrite-text: learning in multi-agent systems
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Flowers, Inria
+              company_logo: inria.png
+              company_url: https://flowers.inria.fr/
+              designation: Post-doctoral researcher
+              description: Worked on various projects in the areas of multi-agent reinforcement learning and evolutionary optimization
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: essex.jpeg
+                college_name: University of Essex
+                college_url:
+                college_degree: PhD
+                description:
+                visibility: true
+
+              - college_logo: auth.png
+                college_name: Aristotle Univesity of Thessaloniki
+                college_url:
+                college_degree: Diploma of Electriral and Computer Engineering
+                description:
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: sapiens_structures.gif
+                project_title: "Social Network Structure Shapes Innovation: Experience-sharing in RL with SAPIENS"
+                project_description: Reinforcement learning agents play the Little Alchemy 2 game. Will sharing experiences help them and who should they share with?
+                project_url: https://github.com/eleninisioti/SAPIENS
+                project_code_url: https://arxiv.org/abs/2206.05060
+                citation: "Eleni Nisioti, Mateo Mahaut, Pierre-Yves Oudeyer, Ida Momennejad, Clément Moulin-Frier. “Social network structure shapes innovation: experience sharing in RL with SAPIENS. https://arxiv.org/abs/2206.05060”."
                 visibility: true
 
+              - project_thumbnail: fig8_NF.gif
+                project_title: "Plasticity and evolvability under environmental variability: the joint role of fitness-based selection and niche-limited competition"
+                project_description: A population evovles its plasticity and adaptability in an environment consisting of niches whose quality varies with time
+                project_url: https://arxiv.org/abs/2202.08834
+                project_code_url: https://github.com/eleninisioti/ClimateAndLearning
+                citation: "Eleni Nisioti, Clément Moulin-Frier. “Plasticity and evolvability under environmental variability: the joint role of fitness-based selection and niche-limited competition”, GECCO, July 2022, Boston"
+                visibility: true
+
+              - project_thumbnail: framework.png
+                project_title: "Grounding an Ecological Theory of Artificial Intelligence in Human Evolution"
+                project_description:  A conceptual framework for grounding research in AI in what we know about our own species
+                project_url: https://hal.science/hal-03446961/
+                #project_code_url: https://github.com/eleninisioti/ClimateAndLearning
+                citation: "Eleni Nisioti and Katia Jodogne-del Litto and Clément Moulin-Frier, “Grounding an Ecological Theory of Artificial Intelligence in Human Evolution”, NeurIPS 2021- Conference on Neural Information Processing Systems / Workshop: Ecological Theory of Reinforcement Learning, Dec 2021"
+                visibility: true
+
+
+
+
+
+
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
+twitter_username: nisioti_eleni
+github_username:  eleninisioti
+medium_username: elennisioti
 telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+#hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: elennisioti@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
+#olvy_organization: devlopr
+#olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -132,11 +143,12 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-collections:
-  products:
-    output: true
-  authors:
-    output: true
+
+##collections:
+#  products:
+#    output: true
+#  authors:
+#    output: true
 
 defaults:
   -

@@ -93,11 +93,6 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="card">
-      <h1>Skills</h1>
-
-      {%- include author_skills.html -%}
-    </div>
 
     {% if site.wakatime_username %}
     <div class="card">
@@ -115,26 +110,34 @@ layout: default
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-      <h1 class="card-title">Projects</h1>
+      <h1 class="card-title">Papers</h1>
       <br />
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
       <div class="row" id="project-card">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
+          <h6 class="experience-title">{{ project.citation }}</h6>
+
         </div>
-        <div class="col-md-4 center">
+        <div class="col-md-5 center">
           <h4 class="experience-title">{{ project.project_title }}</h4>
           <h6 class="experience-info">{{ project.project_info}}</h6>
           <p class="experience-desc">{{ project.project_description }}</p>
-          <p>
+          <p> Paper link:
             <a class="project-link" href="{{project.project_url}}"
               >{{ project.project_url}}</a
             >
           </p>
+          <p> Code link:
+          <a class="project-link" href="{{project.project_url}}"
+            >{{ project.project_code_url}}</a
+          >
+        </p>
+
         </div>
       </div>
       <br />
