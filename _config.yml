@@ -1,9 +1,7 @@
 title: Eleni Nisioti
 subtitle: My academic and personal website
 description: >- # this means to ignore newlines until "baseurl:"
-  
-
-url: https://eleninisioti@github.io "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: https://eleninisioti@github.io # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
