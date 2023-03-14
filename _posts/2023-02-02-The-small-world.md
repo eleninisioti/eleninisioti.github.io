@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fiction: the small world"
+title:  "The small world"
 summary: 
 author:  Eleni Nisioti
 date: '2023-02-02 14:35:23 +0530'
