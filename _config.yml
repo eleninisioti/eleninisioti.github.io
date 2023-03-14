@@ -8,10 +8,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: About
+    - text: CV
       url: /about
-    - text: Blog
-      url: /blog
+    - text: Publications
+      url: /publications
+#    - text: Blog
+#      url: /blog
+    - text: Fiction
+      url: /fiction
 
 
 
@@ -20,12 +24,18 @@ urls:
 author_logo: profile.png
 author_avatar: eleninisioti.png
 author: Eleni Nisioti
-author_bio: Hi, my name is Eleni Nisioti and this is my academic and somewhat personal website. I am a researcher in Artificial Intelligence, working
-  primarily on multi-afgent reinforcement learning, evolutionary optimization and complex systems.
-author_email: "elennisioti@gmail,com"
+author_bio: I am a post-doctoral researcher at <a href="https://developmentalsystems.org/">Flowers, Inria</a> working on learning in 
+  multi-agent systems. I like analyzing how environments and group properties create challenges and opportunities for agents adapting individually and collectively. What this means in practice is that I
+  I train agents with reinforcement learning and evolutionary algorithms and design environments with dynamics inspired from ecological studies.
+  
+  You can see my recent publications <a href="/publications"> here</a>.
+
+  I also like fiction, especially science fiction inspired from ideas in complex systems. <a href="/fiction"> Here </a> are some of my short stories.
+author_email: "elennisioti@gmail.com"
 author_location: France
 #author_website_url: ""
-typewrite-text: learning in multi-agent systems
+#typewrite-text: learning in multi-agent systems
+#typewrite-text:
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -52,33 +62,6 @@ author_education_details:
                 college_degree: Diploma of Electriral and Computer Engineering
                 description:
                 visibility: true
-
-# Projects
-author_project_details:
-              - project_thumbnail: sapiens_structures.gif
-                project_title: "Social Network Structure Shapes Innovation: Experience-sharing in RL with SAPIENS"
-                project_description: Reinforcement learning agents play the Little Alchemy 2 game. Will sharing experiences help them and who should they share with?
-                project_url: https://github.com/eleninisioti/SAPIENS
-                project_code_url: https://arxiv.org/abs/2206.05060
-                citation: "Eleni Nisioti, Mateo Mahaut, Pierre-Yves Oudeyer, Ida Momennejad, Clément Moulin-Frier. “Social network structure shapes innovation: experience sharing in RL with SAPIENS. https://arxiv.org/abs/2206.05060”."
-                visibility: true
-
-              - project_thumbnail: fig8_NF.gif
-                project_title: "Plasticity and evolvability under environmental variability: the joint role of fitness-based selection and niche-limited competition"
-                project_description: A population evovles its plasticity and adaptability in an environment consisting of niches whose quality varies with time
-                project_url: https://arxiv.org/abs/2202.08834
-                project_code_url: https://github.com/eleninisioti/ClimateAndLearning
-                citation: "Eleni Nisioti, Clément Moulin-Frier. “Plasticity and evolvability under environmental variability: the joint role of fitness-based selection and niche-limited competition”, GECCO, July 2022, Boston"
-                visibility: true
-
-              - project_thumbnail: framework.png
-                project_title: "Grounding an Ecological Theory of Artificial Intelligence in Human Evolution"
-                project_description:  A conceptual framework for grounding research in AI in what we know about our own species
-                project_url: https://hal.science/hal-03446961/
-                #project_code_url: https://github.com/eleninisioti/ClimateAndLearning
-                citation: "Eleni Nisioti and Katia Jodogne-del Litto and Clément Moulin-Frier, “Grounding an Ecological Theory of Artificial Intelligence in Human Evolution”, NeurIPS 2021- Conference on Neural Information Processing Systems / Workshop: Ecological Theory of Reinforcement Learning, Dec 2021"
-                visibility: true
-
 
 
 
@@ -123,7 +106,8 @@ show_author_project_details: true
 # pagination of posts
 paginate: 4
 per_page: 4
-paginate_path: "/blog/page/:num/"
+#paginate_path: "/blog/page/:num/"
+paginate_path: "/fiction/page/:num/"
 
 # minify
 # compress_html:

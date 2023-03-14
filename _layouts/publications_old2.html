@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="col-lg-12">
+<div class="row">
+    <div class="col-lg-12">
+
+        <div class="card">
+            <h4> yo </h4>
+
+            <button type="button" class="collapsible">
+        Open Collapsible section
+    </button>
+
+    <div class="text">
+        A Computer Science portal for geeks.
+        It contains well written, well thought
+        and well explained computer science and
+        programming articles, quizzes and ...
+    </div>
+
+    <script>
+        var btn = document.getElementsByClassName("collapsible");
+
+        btn[0].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+
+    </script>
+
+
+        </div>
+
+    </div>
+</div>
+</div>
+

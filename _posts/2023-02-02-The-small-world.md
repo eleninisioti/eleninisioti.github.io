@@ -7,7 +7,7 @@ date: '2023-02-02 14:35:23 +0530'
 category: 
 thumbnail: /assets/img/posts/fiction_sw.png
 keywords: 
-permalink: /blog/small-world/
+permalink: /fiction/small-world/
 usemathjax: false
 ---
 He did not remember if he moved in the place because the rent was cheap or it was near his work. They say your capacity for memory shrinks or expands based on what the world expects from you, so his must be the size of an atrophied blueberry by now.

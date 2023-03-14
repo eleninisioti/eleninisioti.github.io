@@ -1,0 +1,187 @@
+---
+layout: default
+---
+<div class="col-lg-12">
+<div class="row">
+    <div class="col-lg-12">
+<!--    {% if site.author_bio %}-->
+
+        <div class="card">
+
+            <h4> <a href="https://arxiv.org/abs/2302.09334"> Gautier Hamon, Eleni Nisioti, and Clément Moulin-Frier. ‘Eco-Evolutionary Dynamics of Non-Episodic Neuroevolution in Large Multi-Agent Environments’. arXiv, 18 February 2023. https://doi.org/10.48550/arXiv.2302.09334. </a>
+            </h4>
+
+            <p> <b>Code: </b> <a href="https://github.com/flowersteam/EcoEvoJax"> https://github.com/flowersteam/EcoEvoJax </a> </p>
+
+            <p> <b> Short description: </b> Learning foraging strategies using neuroevolution in a JAX grid-world with thousands of agents and spatiotemporal variability in resources.
+            </p>
+
+
+            <button type="button" class="collapsible" >
+            Abstract
+            </button>
+
+            <div class="text" style="display:none;">
+                Neuroevolution (NE) has recently proven a competitive alternative to learning by gradient descent in reinforcement learning tasks. However, the majority of NE methods and associated simulation environments differ crucially from biological evolution: the environment is reset to initial conditions at the end of each generation, whereas natural environments are continuously modified by their inhabitants; agents reproduce based on their ability to maximize rewards within a population, while biological organisms reproduce and die based on internal physiological variables that depend on their resource consumption; simulation environments are primarily single-agent while the biological world is inherently multi-agent and evolves alongside the population. In this work we present a method for continuously evolving adaptive agents without any environment or population reset. The environment is a large grid world with complex spatiotemporal resource generation, containing many agents that are each controlled by an evolvable recurrent neural network and locally reproduce based on their internal physiology. The entire system is implemented in JAX, allowing very fast simulation on a GPU. We show that NE can operate in an ecologically-valid non-episodic multi-agent setting, finding sustainable collective foraging strategies in the presence of a complex interplay between ecological and evolutionary dynamics.
+            </div>
+
+            <script>
+                var btn = document.getElementsByClassName("collapsible");
+
+        btn[0].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+
+           </script>
+
+        </div>
+
+
+
+<!--    {% endif %} {% if site.show_author_education_details == true %}-->
+<!--    {% endif %}-->
+
+
+
+        <div class="card">
+    <!--      <h1 class="card-title"></h1>-->
+              <h4> <a href="https://arxiv.org/abs/2211.06082"> Elías Masquil, Gautier Hamon, Eleni Nisioti, and Clément Moulin-Frier. ‘Intrinsically-Motivated Goal-Conditioned Reinforcement Learning in Multi-Agent Environments’. arXiv, 11 November 2022. https://doi.org/10.48550/arXiv.2211.06082.</a>
+              </h4>
+
+            <p> <b>Code: </b> <a href="hhttps://github.com/Reytuag/imgc-marl"> https://github.com/Reytuag/imgc-marl </a> </p>
+
+            <p> <b> Short description: </b> How can a group of agents learn to solve a diversity of cooperative tasks without supervision? We show that aligning goals is a good strategy and design an emergent-communicaiton algorithm to achieve it. </p>
+
+            <button type="button" class="collapsible" >
+            Abstract
+            </button>
+
+            <div class="text" style="display:none;">
+                How can a population of reinforcement learning agents autonomously learn a diversity of cooperative tasks in a shared environment? In the single-agent paradigm, goal-conditioned policies have been combined with intrinsic motivation mechanisms to endow agents with the ability to master a wide diversity of autonomously discovered goals. Transferring this idea to cooperative multi-agent systems (MAS) entails a challenge: intrinsically motivated agents that sample goals independently focus on a shared cooperative goal with low probability, impairing their learning performance. In this work, we propose a new learning paradigm for modeling such settings, the Decentralized Intrinsically Motivated Skill Acquisition Problem (Dec-IMSAP), and employ it to solve cooperative navigation tasks. Agents in a Dec-IMSAP are trained in a fully decentralized way, which comes in contrast to previous contributions in multi-goal MAS that consider a centralized goal-selection mechanism. Our empirical analysis indicates that a sufficient condition for efficiently learning a diversity of cooperative tasks is to ensure that a group aligns its goals, i.e., the agents pursue the same cooperative goal and learn to coordinate their actions through specialization. We introduce the Goal-coordination game, a fully-decentralized emergent communication algorithm, where goal alignment emerges from the maximization of individual rewards in multi-goal cooperative environments and show that it is able to reach equal performance to a centralized training baseline that guarantees aligned goals. To our knowledge, this is the first contribution addressing the problem of intrinsically motivated multi-agent goal exploration in a decentralized training paradigm.
+            </div>
+
+            <script>
+                var btn = document.getElementsByClassName("collapsible");
+
+        btn[1].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+
+           </script>
+
+     </div>
+
+        <div class="card">
+            <h4> <a href="https://arxiv.org/abs/2206.05060"> Eleni Nisioti, Mateo Mahaut, Pierre-Yves Oudeyer, Ida Momennejad, and Clément Moulin-Frier. ‘Social Network Structure Shapes Innovation: Experience-Sharing in RL with SAPIENS’. arXiv, 18 November 2022. </a>
+            </h4>
+
+            <p> <b>Code: </b> <a href="https://github.com/eleninisioti/SAPIENS"> https://github.com/eleninisioti/SAPIENS </a> </p>
+
+            <p> <b> Short description: </b>  Reinforcement learning agents play the Little Alchemy 2 game. Will sharing experiences help them and who should they share with?
+            </p>
+            <button type="button" class="collapsible">
+            Abstract
+            </button>
+
+            <div class="content" style="display:none;">
+                Human culture relies on innovation: our ability to continuously explore how existing elements can be combined to create new ones. Innovation is not solitary, it relies on collective search and accumulation. Reinforcement learning (RL) approaches commonly assume that fully-connected groups are best suited for innovation. However, human laboratory and field studies have shown that hierarchical innovation is more robustly achieved by dynamic social network structures. In dynamic settings, humans oscillate between innovating individually or in small clusters, and then sharing outcomes with others. To our knowledge, the role of social network structure on innovation has not been systematically studied in RL. Here, we use a multi-level problem setting (WordCraft), with three different innovation tasks to test the hypothesis that the social network structure affects the performance of distributed RL algorithms. We systematically design networks of DQNs sharing experiences from their replay buffers in varying structures (fully-connected, small world, dynamic, ring) and introduce a set of behavioral and mnemonic metrics that extend the classical reward-focused evaluation framework of RL. Comparing the level of innovation achieved by different social network structures across different tasks shows that, first, consistent with human findings, experience sharing within a dynamic structure achieves the highest level of innovation in tasks with a deceptive nature and large search spaces. Second, experience sharing is not as helpful when there is a single clear path to innovation. Third, the metrics we propose, can help understand the success of different social network structures on different tasks, with the diversity of experiences on an individual and group level lending crucial insights.
+            </div>
+
+                        <script>
+                var btn = document.getElementsByClassName("collapsible");
+
+        btn[2].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+
+           </script>
+
+
+    </div>
+
+        <div class="card">
+            <h4> <a href="https://dl.acm.org/doi/10.1145/3512290.3528826"> Eleni Nisioti, Clément Moulin-Frier. “Plasticity and evolvability under environmental variability: the joint role of fitness-based selection and niche-limited competition”, GECCO, July 2022, Boston </a>
+            </h4>
+
+            <p> <b>Code: </b> <a href="https://github.com/eleninisioti/SAPIENS"> https://github.com/eleninisioti/ClimateAndLearning </a> </p>
+
+            <p> <b> Short description: </b> What are the costs and benefits of plasticity in variable environments? We explore questions about the emergence of adaptability through a simple eco-evolutionary model.
+            </p>
+            <button type="button" class="collapsible">
+            Abstract
+            </button>
+
+            <div class="content" style="display:none;">
+                The diversity and quality of natural systems have been a puzzle and inspiration for communities studying artificial life. It is now widely admitted that the adaptation mechanisms enabling these properties are largely influenced by the environments they inhabit. Organisms facing environmental variability have two alternative adaptation mechanisms operating at different timescales: plasticity, the ability of a phenotype to survive in diverse environments and evolvability, the ability to adapt through mutations. Although vital under environmental variability both mechanisms are associated with fitness costs hypothesized to render them unnecessary in stable environments. In this work, we study the interplay between environmental dynamics and adaptation in a minimal model of the evolution of plasticity and evolvability. We experiment with different types of environments characterized by the presence of niches and a climate function that determines the fitness landscape. We empirically show that environmental dynamics affect plasticity and evolvability differently and that the presence of diverse ecological niches favors adaptability even in stable environments. We perform ablation studies of the selection mechanisms to separate the role of fitness-based selection and niche-limited competition. Results obtained from our minimal model allow us to propose promising research directions in the study of open-endedness in biological and artificial systems.
+            </div>
+
+                        <script>
+                var btn = document.getElementsByClassName("collapsible");
+
+        btn[3].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+
+           </script>
+
+
+        </div>
+
+        <div class="card">
+            <h4> <a href="https://hal.science/hal-03446961/"> Eleni Nisioti and Katia Jodogne-del Litto and Clément Moulin-Frier, “Grounding an Ecological Theory of Artificial Intelligence in Human Evolution”, NeurIPS 2021- Conference on Neural Information Processing Systems / Workshop: Ecological Theory of Reinforcement Learning, Dec 2021 </a></h4>
+
+
+            <p> <b> Short description: </b> How can ecologists and AI researchers communicate about their study of skill acquisition in natural and artificial ecosystems? A conceptula framework for bridging the gap</p>
+            <button type="button" class="collapsible">
+            Abstract
+            </button>
+
+            <div class="content" style="display:none;">
+            Recent advances in Artificial Intelligence (AI) have revived the quest for agents able to acquire an open-ended repertoire of skills. Although this ability is fundamentally related to the characteristics of human intelligence, research in this field rarely considers the processes and ecological conditions that may have guided the emergence of complex cognitive capacities during the evolution of the species. Research in Human Behavioral Ecology (HBE) seeks to understand how the behaviors characterizing human nature can be conceived as adaptive responses to major changes in our ecological niche. In this paper, we propose a framework highlighting the role of environmental complexity in open-ended skill acquisition, grounded in major hypotheses from HBE and recent contributions in Reinforcement learning (RL). We use this framework to highlight fundamental links between the two disciplines, as well as to identify feedback loops that bootstrap ecological complexity and create promising research directions for AI researchers. We also present our first steps towards designing a simulation environment that implements the climate dynamics necessary for studying key HBE hypotheses relating environmental complexity to skill acquisition.
+
+            </div>
+
+                        <script>
+                var btn = document.getElementsByClassName("collapsible");
+
+        btn[4].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+
+           </script>
+
+        </div>
+
+    </div>
+</div>
+</div>
