@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+<py-config>
+  packages = ["matplotlib", "numpy"]
+
+
+</py-config>
+<style>
+
+td {
+  vertical-align: top;
+}
+</style>
+</head>
+
+
+<body>
+
+<h2 style="text-align: center;"> Play the Spatial Prisoner's Dilemma game </h2>
+<p style="text-align: center;"> Configure the control panel below and watch a population of agents playing the game.</p>
+
+
+<table>
+<tbody>
+<tr>
+<td style="text-align: center">
+<h5> Paper examples </h5>
+</td>
+    <td style="text-align: center">
+        </td>
+
+<td style="text-align: center">
+<h5> Make your own configuration </h5>
+</td>
+</tr>
+
+<tr>
+
+<td style="text-align: center">
+<i> Configurations of the hyper-parameters that give interesting dynamics</i>
+
+</td>
+
+
+<td style="text-align: center">
+  <p>Benefit of cooperation:</p>
+
+</td>
+
+<td style="text-align: center">
+  <p>Percentage of initial cooperators:</p>
+</td>
+
+<td style="text-align: center">
+  <p>Number of rounds:</p>
+</td>
+<td style="text-align: center">
+    <br>
+
+</td>
+</tr>
+
+
+<tr>
+    <td style="text-align: center">
+<div style="text-align: center">
+<button id="run_fractal" style="background-color:orange" type="button" class="button is-primary" py-click="asyncio.ensure_future(run_chaotic())"> Run chaotic dynamics</button>
+</div>
+</td>
+
+<td style="text-align: center">
+<textarea name="benefit" id="benefit" placeholder="Enter a float value between 0 and 3."></textarea>
+
+</td>
+
+<td style="text-align: center">
+<textarea name="perc_coop" id="perc_coop" placeholder="Enter a float value between 0 and 1."></textarea>
+</td>
+
+<td style="text-align: center">
+<textarea name="num_rounds" id="num_rounds" placeholder="Enter an integer."></textarea>
+</td>
+
+</tr>
+<tr>
+        <td style="text-align: center">
+        </td>
+    <td style="text-align: center">
+        </td>
+    <td style="text-align: center">
+
+<button id="run" type="button" style="background-color:orange" class="button is-primary" py-click="asyncio.ensure_future(play_tournament())">Run game</button>
+</td></tr>
+
+</tbody>
+</table>
+
+
+
+
+<div id="matplotlib-lineplot">
+
+<pre>
+<py-script src="simulate.py">
+
+
+</py-script>
+</pre>
+</div>
+
+
+<table>
+
+<td style="text-align: center;padding:10px">
+<p> <b> What do the colors mean? </b>  </p>
+
+<img src="/assets/img/posts/spatialchaos.png">
+</td>
+<td style="text-align: center;padding:10px">
+<div id="graph-area"></div>
+</td>
+</table>
+<br>
+
+<center>
+<i> Press button "Run chaotic dynamics" to run the game in its chaotic regime or configure the hyper-parameters to run
+a custom simulation. Every pixel in the grid is an agent that plays the Prisoner's Dilemma game against its eight neighbors.
+</i>
+</center>
+
+
+<br>
+
+
+</body>
+</html>

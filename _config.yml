@@ -12,8 +12,8 @@ urls:
       url: /about
     - text: Publications
       url: /publications
-#    - text: Blog
-#      url: /blog
+    - text: Research Blog
+      url: /blog
     - text: Fiction
       url: /fiction
 
@@ -99,15 +99,15 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
+show_author_work_ex periences: true
 show_author_education_details: true
 show_author_project_details: true
 
 # pagination of posts
 paginate: 4
 per_page: 4
-#paginate_path: "/blog/page/:num/"
-paginate_path: "/fiction/page/:num/"
+paginate_path: "/blog/page/:num/"
+#paginate_path: "/fiction/page/:num/"
 
 # minify
 # compress_html:
