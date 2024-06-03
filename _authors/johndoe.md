@@ -1,7 +1,7 @@
 ---
-name: John Doe
-username: johndoe
-bio: "Hi I a John, a Web Developer and Designer."
+name: Eleni Nisioti
+username: eleni
+bio: "I am Eleni, a researcher on natural and artificial intelligence."
 site: http://johndoe.com
 avatar: johndoe.png
 email: mail@johndoe.com

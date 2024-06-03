@@ -10,3 +10,8 @@ gem "jekyll-gist"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-admin"
+gem 'sass-embedded', '1.77.4'
+gem 'require'
+gem 'sass-embedded', '1.77.4'
+gem 'rack', '~> 2.2.6'
+

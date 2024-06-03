@@ -24,22 +24,33 @@ urls:
 author_logo: profile.png
 author_avatar: eleninisioti.png
 author: Eleni Nisioti
-author_bio: I am a post-doctoral researcher at <a href="https://developmentalsystems.org/">Flowers, Inria</a> working on learning in 
-  multi-agent systems. I like analyzing how environments and group properties create challenges and opportunities for agents adapting individually and collectively. What this means in practice is that I
+author_bio: I am currently a post-doctoral researcher at the Robotics, Evolution and Art Lab (REAL) of the IT University of Copenhagen working under the <a href="https://en.itu.dk/About-ITU/Press/News-from-ITU/2022/ITU-researcher-secures-ERC-Consolidator-grant-to-develop-rapid-learning-abilities-in-AI">ERC grant of Sebastian Risi</a>. Our focus is on designing biologically-inspired algorithms and environments for studying how developmental growth can aid in the generalisation and robustness of AI. 
+  I am also collaborating with <a href="https://developmentalsystems.org/">Flowers, Inria</a> on cultural evolution with reinforcement learning and Large Language Model-powered agents. 
+  
+  I like analyzing how environments and group properties create challenges and opportunities for agents adapting individually and collectively. What this means in practice is that I
   I train agents with reinforcement learning and evolutionary algorithms and design environments with dynamics inspired from ecological studies.
   
   You can see my recent publications <a href="/publications"> here</a>.
 
   I also like fiction, especially science fiction inspired from ideas in complex systems. <a href="/fiction"> Here </a> are some of my short stories.
 author_email: "elennisioti@gmail.com"
-author_location: France
+author_location: Denmark
 #author_website_url: ""
 #typewrite-text: learning in multi-agent systems
 #typewrite-text:
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
+
 author_work_experiences:
+            - company_name: REAL, IT University of Copenhagen
+              company_logo: itu.png
+              company_url: https://real.itu.dk/
+              designation: Post-doctoral researcher
+              description: Biologicall-inspired growth algortihms for AI
+              visibility: true
+
+
             - company_name: Flowers, Inria
               company_logo: inria.png
               company_url: https://flowers.inria.fr/
