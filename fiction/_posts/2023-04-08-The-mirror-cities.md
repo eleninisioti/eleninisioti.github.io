@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "The king of the fireflies"
+title:  "The Mirror Cities"
 summary: 
 author:  Eleni Nisioti
-date: '2023-02-02 14:35:23 +0530'
+date: '2023-04-08 14:35:23 +0530'
 category: fiction
 thumbnail: /assets/img/posts/fiction_the_mirror_cities.png
 keywords: 
 permalink: /fiction/the-mirror-cities/
 usemathjax: false
+---
 
-
-This is the story of Ukhur and Fea as told by the Great Wuah-Wuah. Experts to date disagree on why Fea does not have a rectilinear street layout, whether Ukhur is a city-state and when, if at all, lived the Great Wuah-Wuah. The manuscript that we are about to read bears on its cover the inscription “Notes on the Mirror Cities.” In the center of the first page one reads “All events are real to an extent set by your own definition of reality.”
+This is the story of Ukhur and Fea as told by the Great Wuah-Wuah. Experts to date disagree on why Fea does not have a rectilinear street layout, whether Ukhur is a city-state and when, if at all, lived the Great Wuah-Wuah. The manuscript that we are about to read bears on its cover the inscription "Notes on the Mirror Cities." In the center of the first page one reads "All events are real to an extent set by your own definition of reality."
 
 
 “I had dozed off to the sound of the engine, the sun of the Critea desert boiling my upper skull. Bumping and all, I at first thought the spectacle a projection of my internal turbulence. From a lower height, it became obvious that the hill beneath me was trembling at a frequency uncharacteristic of an earthquake. I drove my plane even lower and continued flying in wide circles, when a building revealed itself in the place of the hill. Painted in a brisque brown hue with smooth angles and plain surfaces, it seemed uninviting in its subtlety. Specks of sand were falling from its roof in the rhythm of the vibration, forming sandfalls in all directions. Having roamed over these desolate plains for days, I jumped at the sight of a humanoid figure near the eastern facade. I approached slowly and landed my plane on a seemingly sturdy surface of sand. I approached her, and as she turned towards me, was surprised by her bright smile. ‘Hello’ I said in a cheerful but respectful tone I had acquired in my expeditions. ‘Nice vibes in this building, ha?’ The girl nodded back in agreement. Still smiling: ‘Bubble covertronica. It’s the new shit’.
