@@ -56,7 +56,7 @@ I then prepared these two posters, the left one was placed on the wall next to t
 
 <div style="display: flex; justify-content: center; gap: 32px; margin: 2em 0;">
   <div style="flex: 1; text-align: center;">
-    <img src="/assets/img/posts/Posterukhur.pnh" alt="Poster Ukhur" style="max-width: 100%; height: auto; border: 1px solid #ccc;"/>
+    <img src="/assets/img/posts/Posterukhur.png" alt="Poster Ukhur" style="max-width: 100%; height: auto; border: 1px solid #ccc;"/>
     <div style="margin-top: 0.5em; font-size: 0.95em; color: #666;">Ukhur Poster</div>
   </div>
   <div style="flex: 1; text-align: center;">
